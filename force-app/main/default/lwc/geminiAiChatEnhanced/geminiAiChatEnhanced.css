@@ -1,0 +1,25 @@
+.chat-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 1rem;
+}
+
+.message.left {
+    text-align: left;
+}
+
+.message.right {
+    text-align: right;
+}
+
+.code-block {
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    overflow-x: auto;
+}
